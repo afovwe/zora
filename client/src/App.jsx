@@ -1,8 +1,11 @@
+import Download from "./sections/Download"
 import Faqs from "./sections/Faqs"
 import Features from "./sections/Features"
+import Footer from "./sections/Footer"
 import Header from "./sections/Header"
 import Hero from "./sections/Hero"
 import Pricing from "./sections/Pricing"
+import Testimonials from "./sections/Testimonials"
 
 
 const App = () => {
@@ -13,6 +16,9 @@ const App = () => {
      <Features />
      <Pricing />
      <Faqs />
+     <Testimonials />
+     <Download />
+     <Footer />
     </main>
   )
 }
