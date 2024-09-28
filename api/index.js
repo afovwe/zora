@@ -33,9 +33,9 @@ app.use('/api/orders', orderRouter); // Order related routes
 app.use('/api/auth', authRouter);    // Authentication routes
 
 // Serve the index.html file for any other requests
-/* app.get('*', (req, res) => {
+app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'client', 'dist', 'index.html'));
-}); */
+});
 
 // Connect to MongoDB
 const MONGODB_URI = process.env.MONGODB_URI; // Ensure you have this in your .env file
